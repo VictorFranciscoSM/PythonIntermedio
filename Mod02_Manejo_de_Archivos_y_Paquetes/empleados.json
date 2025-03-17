@@ -1,0 +1,38 @@
+[
+    {
+        "ID": 1,
+        "Nombre": "Victor",
+        "Edad": 27,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 2,
+        "Nombre": "Frank",
+        "Edad": 25,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 3,
+        "Nombre": "diego",
+        "Edad": 25,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 4,
+        "Nombre": "Jose",
+        "Edad": 25,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 5,
+        "Nombre": "Oman",
+        "Edad": 25,
+        "Departamento": "Ventas"
+    },
+    {
+        "ID": 6,
+        "Nombre": "David",
+        "Edad": 32,
+        "Departamento": "Logistica"
+    }
+]
