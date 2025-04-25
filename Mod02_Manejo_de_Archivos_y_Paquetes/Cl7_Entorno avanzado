@@ -1,0 +1,59 @@
+para entornos vituales avanzados usualmente se usa la libreria virtualenv en python
+para esto se necestia instalar usando el sigueinte comando
+
+pip install virtualenv
+
+se procede a crear una carpeta
+
+mkdir NombreDeLaCarpeta
+
+se entra a la carpeta
+
+cd .\NombreDeLaCarpeta\
+y se procede a crear el entorno virtual
+
+virtualenv venv
+
+dentro del entorno se tienen las misma carpetas que en los otros entornos vituales, por lo que 
+se activara el entorno virtual de la siguiente forma
+
+.\venv\Scripts\activate
+
+se instala la paqueteria, que se creara en el entorno virtual
+
+pip install requests
+
+para desactivar el entorno virtual
+
+deactivate
+
+extension (virtualenvwrapper): que facilita la creacion, modificacion, eliminacion de multiples entonrnos virtuales
+
+pip install virtualenvwrapper
+
+pip install virtualenvwrapper-win
+
+para crear el entorno se usa
+
+mkvitualenv NuevoEntorno
+
+para ver los entornos
+
+lsvitualenv
+
+para activar este entorno
+
+workon NuevoEntorno
+
+para eliminar el entorno:
+
+rmvirtualenv NuevoEntorno
+
+
+################################
+Ejemplos usando conda
+
+1. se busca en google, en su pagina se selecciona el que aplique a tu computadora. En esta caso se instalara
+miniconda
+2. En la terminal de python, dentro de la carpeta se instalara con el sigueinte comando
+conda install pandas numpy matplotlib seaborn jupyter

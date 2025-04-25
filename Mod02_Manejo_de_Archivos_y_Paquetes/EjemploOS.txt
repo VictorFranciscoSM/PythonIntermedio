@@ -1,0 +1,1 @@
+se revisara el tamaño del archivo por medio de la la libreria OS

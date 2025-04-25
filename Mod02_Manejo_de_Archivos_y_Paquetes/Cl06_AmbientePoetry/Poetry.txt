@@ -1,0 +1,36 @@
+#Es una herramienta moderna, con el onjetivo de reducir las declaracion de dependencias
+
+#para usar la libreria poetry se necesita instalr en caso de que no se cuente para intalar se usa el sigueinte comanod
+(Invoke-WebRequest -Uri https://intall.python-poetry.org -UseBasicParsing).Content | python -
+
+#una vez se instala se usa el seguiente comando:
+pip install poetry
+
+#Para usarla se tiene uqe defenir una carpeta para gestionar los archivos y librerias
+mkdir  Gestion  #para crear el directorio gestion
+
+
+#dentro de la carpeta que se creo se procede a usar el sigueinte comando, para inicar el gestor
+C:\Users\VictorFSM\Desktop\PythonIntermedio\Mod02_Manejo_de_Archivos_y_Paquetes\Cl05_Paquetes> poetry init 
+
+#aparecera un asistente interactivo para la configuracion del archivo, se dine lo sigueinte
+Nombre
+versionDescripcion
+Autor
+Lecencia 
+Version de python
+Depencencia principal?
+Depencencia de desarrollador?
+confimarcion?
+
+#Para agregar un paquete se realiza de la sigueinte manera
+poetry add requests
+
+#para activar el entorno
+poetry shell
+#para salir
+exit
+
+
+
+

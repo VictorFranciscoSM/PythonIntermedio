@@ -1,0 +1,33 @@
+#para usar la libreria pipenv se necesita instalr en caso de que no se cuente para intalar se usa el sigueinte comanod
+pip install pipenv
+
+#Para usarla se tiene uqe defenir una carpeta para gestionar los archivos y librerias
+mkdir  Gestion  #para crear el directorio gestion
+
+#dentro de la carpeta que se creo se procede a usar el sigueinte comando, para inicar el gestor
+C:\Users\VictorFSM\
+Desktop\PythonIntermedio\Mod02_Manejo_de_Archivos_y_Paquetes\Cl05_Paquetes> pipenv install
+
+
+#apareceran dos archvios, que solo se usaran en este directorio
+
+#se instala pipenv install request
+pip install request
+
+#Para activar el entorno usando pipenv, es de la siguiente manera
+pipenv shell
+#para cerrarlo es:
+exit
+
+#para probar se usa la paqueteria pytest
+pipenv intall pytest --dev
+
+#dentro del archivo "Pipfile" que se genero al usar pipenv install se tienen ciertos significados
+Source      --> fuente donde se descargaran los paquetes
+verify_ssl = true   --> verifca el certificado de sseguridad ssl (conexion segura con el proyecto)
+
+Packages    --> Define la dependencias principales del proyecto
+requests = "*"   --> Solicitudes a http, el * indica que se intalara l version mas compatible con las librerias de dependencias 
+
+[def-Packages] --> define las dependencias de desarollo
+pytest = "*" --> herramienta de prubas de python, se intalara la version mas compatible
